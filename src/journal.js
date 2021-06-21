@@ -5,4 +5,4 @@ export default function JournalEntry(journalTitle, journalEntry) {
 
 JournalEntry.prototype.returnEntry = function() {
   return "Entry Recorded";
-}
+};

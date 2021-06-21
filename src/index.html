@@ -5,14 +5,24 @@
   <title>Journal Entry</title>
 </head>
 <body>
+  <div class="container">
   <h3>Journal Entry</h3>
   <form id="my-journal">
+    <div class="row">
+      <div class="col-md-3">
     <label for="journal-title">Title:</label>
     <input id="journal-title" type="text">
-    <label for="journal-entry">Journal Entry:</label>
+    </div>
+    </div>
+    <hr>
+    <div class="row">
+     <label for="journal-entry">Journal Entry:</label>
     <input id="journal-entry" type="text">
+    </div>
+    <hr>
     <button type="submit">Submit Entry</button>
   </form>
   <ul id="recorded-entry"></ul>
+</div>
 </body>
 </html>

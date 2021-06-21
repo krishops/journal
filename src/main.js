@@ -10,6 +10,7 @@ $(document).ready(function() {
     const inputtedJournalTitle = $('input#journal-title').val();
     const inputtedJournalEntry = $('input#ljournal-entry').val();
     let journalEntry = new JournalEntry(inputtedJournalTitle, inputtedJournalEntry);
+    console.log(journalEntry);
     const recordedEntry = journalEntry.returnEntry();
     $('#recorded-entry').append("<p>" + recordedEntry + "</p>");
   });
